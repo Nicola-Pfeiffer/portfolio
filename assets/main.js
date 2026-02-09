@@ -18,7 +18,7 @@ const languageSwitcher = document.getElementById('languageSwitcher');
 
 languageSwitcher.addEventListener('change', function() {
     const selectedLang = this.value;
-    window.location.href = `../${selectedLang}/index.html`;
+    window.location.href = `../${selectedLang}/`;
 });
 
 const canvas = document.createElement('canvas');
