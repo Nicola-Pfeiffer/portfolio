@@ -2,13 +2,24 @@
 
 A modern, responsive portfolio website showcasing iOS and web development projects, skills, and professional experience.
 
+## Overview
+
+This project is a clean and responsive personal portfolio built with vanilla HTML, CSS, and JavaScript. It includes dedicated English and German versions, a modern glassmorphism-inspired UI, theme switching, and a structured project showcase.
+
+The portfolio highlights:
+
+- Professional experience at UBS AG
+- iOS and web development projects
+- Skills and technologies
+- Resume and certifications
+- Contact information
+
 ## Features
 
 - **Bilingual Support**: English and German language switcher
-- **Responsive Design**: Optimized for desktop and mobile devices
-- **Modern UI**: Dark theme with smooth animations and gradient accents
-- **Smooth Navigation**: Anchor link scrolling within sections
-- **Dynamic Footer**: Current year auto-updates
+- **Responsive Design**: Optimized for desktop, tablet and mobile
+- **Theme Switching**: System preference detection and Theme preference persistence
+- **Modern UI**: Smooth hover interactions and reusable UI components
 
 ## Project Structure
 
@@ -19,30 +30,21 @@ portfolio/
 ├── de/
 │   └── index.html          # German version
 ├── assets/
+│   ├── ich.jpeg            # Profile image
 │   ├── styles.css          # Main stylesheet
-│   ├── main.js             # JavaScript functionality
-│   └── favicon             # Generated favicon
+│   └── main.js             # JavaScript functionality
 └── README.md
 ```
 
 ## Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-- **Design**: Custom CSS with CSS Grid & Flexbox
-- **Features**: Language switching, smooth scrolling, dynamic theming
-
-## Key Sections
-
-- **Hero**: Introduction with availability status
-- **Projects**: Four featured projects with descriptions and tech stacks
-- **Skills**: Organized by category (iOS & Mobile, Web & Backend, Tools & Workflow)
-- **About**: Personal introduction
-- **Contact**: Email and LinkedIn links
-- **Resume**: Education and experience
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Design**: CSS Grid, Flexbox, Custom responsive layout, Custom theme system
+- **Features**: Language switching, Theme changing
 
 ## How to Use
 
-1. Open either `en/index.html` or `de/index.html` in a web browser
+1. Open either [`en/index.html`](https://nicola-pfeiffer.github.io/portfolio/en/) or [`de/index.html`](https://nicola-pfeiffer.github.io/portfolio/de/) in a web browser
 2. Use the language switcher in the top-right to toggle between English and German
 3. Click navigation links to smoothly scroll to sections
 
